@@ -3,6 +3,7 @@ class Account:
     # state (constructor +  attribute)
     def __init__(self, name, birth_of_date, cc_number) -> None:
         self.name = name
+        #private
         self.__birth_of_date = birth_of_date
         self.cc_number = cc_number
     #setter/ getter

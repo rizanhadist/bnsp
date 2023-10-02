@@ -18,7 +18,7 @@ class Vehicle:
 # mobil.mundur()
 
 class Car(Vehicle):
-    #class Car extends Vehicle (Java)
+    #class Car extends Vehicle {} (Java)
     def __init__(self, name, door):
         super().__init__(name)
         self.door =door
