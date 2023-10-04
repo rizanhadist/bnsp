@@ -1,6 +1,6 @@
 # Function
 def testFunction(x, y):
-    return x*y
+    print( x*y)
 
 # Variable
 testVariable = "Fajri Illahi"
@@ -11,4 +11,4 @@ class TestClass:
         self.name = name
 
     def check(self):
-        self.name
+        print(self.name)
